@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <link rel = "icon" href ="sad.jpg" type = "image/x-icon">
+    <title> &#128037 Rescue Page</title>
+
+    <style>
+      body {
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+        height: 100vh;
+      }
+      @keyframes gradient {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+
+      .text {
+        margin: 0;
+        position: absolute;
+        top: 30%;
+        right: 45%;
+      }
+      .button {
+        background-color: pink;
+        border: none;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+
+      .button1:hover {
+        background-color: green;
+        height: 50px;
+        width: 200px;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+      .button2:hover {
+        background-color: red;
+        height: 50px;
+        width: 200px;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+      .button3 {
+        width: 100%;
+      }
+    </style>
+
+    <script>
+    function func1() {
+      alert("Thanks for forgiving Asad. He is a naive person. I hope you take care of him and help him.");
+    }
+
+    function func2() {
+      alert("Asad is just a naive boy. He has a lot to learn. As his friend request you to forgive Asad. He is not a bad person by any means. Please give him another chance. Asad is just a lost kid who would try to do all he could for you but at he is a bit of moron please help him with his stress too.")
+    }
+
+    function func3() {
+      location.href = "upset.gif";
+    }
+    </script>
+
+  </head>
+
+  <body>
+    <h1>Hello, Forgive Asad!</h1>
+
+    <p>Hey, if you are seeing this page that means Asad has messed up and Asad wants to make ammneds.
+      I am his friend and I am here to talk to you on his behalf!
+    </p>
+
+    <p>I am Asad's friend (his consience). I am here to talk to you on behalf of Asad.
+      Asad was very scared that would lose you. So, he came to me and requested me to please talk to you as he would not like to lose you.
+      He is actually a very kind person but a very naive person at the same time. As his friend I Apologize to you.
+      Please try and talk to him and forgive him.
+    </p>
+
+    <div class="text">
+      <button class="button button1" id="YES" onclick="func1()">YES &#128513</button>
+      <button class="button button2" id="NO" onclick="func2()">NOO &#128532</button><br />
+      <button class="button button3" onclick="func3()">Please forgive Asad!!</button>
+    </div>
+
+  </body>
+
+</html>
